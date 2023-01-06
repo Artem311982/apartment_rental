@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оренда нерухомості</title>
+    <title>Житлова нерухомість</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- styles -->
     <link
       rel="stylesheet"
@@ -14,14 +21,25 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="list">
-          <li><a href="./index.html">Про нас</a></li>
-          <li><a href="./residential_real_estate.html">Житлова нерухомість</a></li>
-          <li><a href="">Комерційна нерухомість</a></li>
-          <li><a href="">Контакти</a></li>
-        </ul>
-      </nav>
+      <div class="">
+        <a class="" href="">LOGO</a>
+        <button class="" type="button" aria-controls="menu-contaner" data-menu-button>
+          <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
+            <use class="" href="./images/icons/icons.svg#menu_path"></use>
+            <use class="" href="./images/icons/icons.svg#dagger"></use>
+          </svg>
+        </button>
+        <div id="menu-contaner" data-menu>
+          <nav>
+            <ul>
+              <li><a href="./index.html">Про нас</a></li>
+              <li><a href="./residential_real_estate.html">Житлова нерухомість</a></li>
+              <li><a href="">Комерційна нерухомість</a></li>
+              <li><a href="">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
       <div>
@@ -36,8 +54,10 @@
           <li></li>
         </ul>
       </div>
+      
+      
       <!-- Sidebar -->
-      <div>
+      <!-- <div>
         <h2>Область</h2>
         <ul>
           <li>Миколаївська область</li>
@@ -65,7 +85,7 @@
           <li></li>
           <li></li>
         </ul>
-      </div>
+      </div> -->
     </main>
     <footer></footer>
   </body>
